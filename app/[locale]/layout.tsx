@@ -1,3 +1,5 @@
+import Header from '@/components/header';
+import ActiveSectionContextProvider from '@/context/active-section-context';
 import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider } from 'next-themes';
 import { Inter } from 'next/font/google';
@@ -27,7 +29,12 @@ export default async function RootLayout(props: Props) {
           enableSystem
           disableTransitionOnChange
         >
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <ActiveSectionContextProvider>
+            <NextIntlClientProvider locale={locale}>
+              <Header />
+              {children}
+            </NextIntlClientProvider>
+          </ActiveSectionContextProvider>
         </ThemeProvider>
       </body>
     </html>
