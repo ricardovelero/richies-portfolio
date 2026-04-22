@@ -1,9 +1,5 @@
 import { ReactNode } from 'react';
 import './globals.css';
-import { Inter } from "next/font/google";
-
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
-
 
 type Props = {
   children: ReactNode;
