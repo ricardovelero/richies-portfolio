@@ -1,6 +1,6 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -81,6 +81,13 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --timeline-bg: #f3f4f6;
+  --timeline-border: rgba(0, 0, 0, 0.05);
+  --timeline-arrow: #9ca3af;
+  --timeline-icon-bg: #ffffff;
+  --timeline-description: rgb(55 65 81);
+  --timeline-line: #e5e7eb;
 }
 
 .dark {
@@ -115,6 +122,13 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+
+  --timeline-bg: rgba(255, 255, 255, 0.05);
+  --timeline-border: rgba(255, 255, 255, 0.1);
+  --timeline-arrow: rgba(255, 255, 255, 0.5);
+  --timeline-icon-bg: rgb(75, 85, 99);
+  --timeline-description: rgb(255 255 255 / 0.75);
+  --timeline-line: rgba(255, 255, 255, 0.2);
 }
 
 @layer base {
