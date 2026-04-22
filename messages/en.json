@@ -60,7 +60,8 @@
     "please-contact-me": "Please contact me directly at",
     "or-through-this-form": "or through this form",
     "your-email": "Your email",
-    "your-message": "Your message"
+    "your-message": "Your message",
+    "email-sent": "Email sent successfully!"
   },
   "Footer": {
     "copyright": "All rights reserved",
