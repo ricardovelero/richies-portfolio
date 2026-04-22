@@ -1,5 +1,7 @@
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import ThemeToggle from '@/components/theme-toggle';
+import { Toaster } from '@/components/ui/sonner';
 import ActiveSectionContextProvider from '@/context/active-section-context';
 import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider } from 'next-themes';
@@ -36,6 +38,8 @@ export default async function RootLayout(props: Props) {
                 <Header />
                 <main className='flex-1'>{children}</main>
                 <Footer />
+                <Toaster position='top-right' />
+                <ThemeToggle />
               </div>
             </NextIntlClientProvider>
           </ActiveSectionContextProvider>
