@@ -3,7 +3,10 @@ import Header from '@/components/header';
 import ThemeToggle from '@/components/theme-toggle';
 import { Toaster } from '@/components/ui/sonner';
 import ActiveSectionContextProvider from '@/context/active-section-context';
+import { routing } from '@/i18n/routing';
 import { NextIntlClientProvider } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 import { ThemeProvider } from 'next-themes';
 import { Inter } from 'next/font/google';
 
@@ -18,6 +21,12 @@ export default async function RootLayout(props: Props) {
   const params = await props.params;
   const { locale } = params;
   const { children } = props;
+
+  if (!routing.locales.includes(locale as 'en' | 'es')) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
 
   return (
     <html
