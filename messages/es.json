@@ -66,7 +66,7 @@
   "Footer": {
     "copyright": "Todos los derechos reservados",
     "about-website": "Sobre esta web",
-    "about-description": "construida con React & Next.js (App Router & Server Actions), Next-Intl (traducciones), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, y hospedaje con Vercel"
+    "about-description": "construida con React & Next.js (App Router & Server Actions), Next-Intl (traducciones), TypeScript, Tailwind CSS, Shadcn, Framer Motion, Postmark, y hospedaje con Vercel"
   },
   "submit": "Enviar"
 }
