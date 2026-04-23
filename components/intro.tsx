@@ -7,6 +7,8 @@ import { ArrowRight, Download } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import GithubIcon from './github-icon';
+import LinkedinIcon from './linkedin-icon';
 
 export default function Intro() {
   const t = useTranslations('IntroSection');
@@ -88,19 +90,23 @@ export default function Intro() {
         </a>
 
         <a
+          aria-label='LinkedIn'
           className='bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
           href='https://www.linkedin.com/in/ricardovelero/'
+          rel='noopener noreferrer'
           target='_blank'
         >
-          {/* <Linkedin /> */}
+          <LinkedinIcon className='h-5 w-5' />
         </a>
 
         <a
+          aria-label='GitHub'
           className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60'
           href='https://github.com/ricardovelero'
+          rel='noopener noreferrer'
           target='_blank'
         >
-          {/* <Github /> */}
+          <GithubIcon className='h-5 w-5' />
         </a>
       </motion.div>
     </section>
