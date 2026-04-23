@@ -1,6 +1,6 @@
-import lafuriaaiImg from '@/public/la-furia-ai.webp';
-import shorttermrentalsImg from '@/public/short-term-rentals.webp';
-import solucionesioImg from '@/public/solucionesio.webp';
+import clipboosthostingImg from '@/public/clipboost-hosting.webp';
+import pawlaroidaiImg from '@/public/pawlaroid-ai.webp';
+import sangreaiImg from '@/public/sangre-ai-2.webp';
 import { Briefcase, FolderKanban, GraduationCap } from 'lucide-react';
 import React from 'react';
 
@@ -70,7 +70,7 @@ export const projectsData = [
       'Vite',
       'Replicate API',
     ],
-    imageUrl: lafuriaaiImg,
+    imageUrl: pawlaroidaiImg,
     link: 'https://pawlaroid.ai',
   },
   {
@@ -84,7 +84,7 @@ export const projectsData = [
       'Vite',
       'Cloudinary',
     ],
-    imageUrl: shorttermrentalsImg,
+    imageUrl: clipboosthostingImg,
     link: 'https://app.clipboost.com',
   },
   {
@@ -101,7 +101,7 @@ export const projectsData = [
       'OpenaAI API',
       'Google Gemini AI',
     ],
-    imageUrl: solucionesioImg,
+    imageUrl: sangreaiImg,
     link: 'https://sangre-ai-react.vercel.app',
   },
 ] as const;
