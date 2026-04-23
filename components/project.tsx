@@ -57,7 +57,7 @@ export default function Project({ title, tags, imageUrl, link }: ProjectProps) {
             className='absolute hidden sm:block top-8 -right-40 w-113 rounded-t-lg shadow-2xl group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-[1.04] group-even:-right-[initial] group-even:-left-40 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2'
             src={imageUrl}
             alt='Project I worked on'
-            quality={90}
+            quality={75}
           />
         </a>
       </section>
