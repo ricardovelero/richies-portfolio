@@ -88,6 +88,13 @@
   --timeline-icon-bg: #ffffff;
   --timeline-description: rgb(55 65 81);
   --timeline-line: #e5e7eb;
+
+  --header-bg: rgb(255 255 255 / 0.8);
+  --header-border: rgb(255 255 255 / 0.4);
+  --header-text: rgb(107 114 128);
+  --header-text-hover: rgb(17 24 39);
+  --header-text-active: rgb(17 24 39);
+  --header-pill-bg: rgb(243 244 246);
 }
 
 .dark {
@@ -129,6 +136,13 @@
   --timeline-icon-bg: rgb(75, 85, 99);
   --timeline-description: rgb(255 255 255 / 0.75);
   --timeline-line: rgba(255, 255, 255, 0.2);
+
+  --header-bg: rgb(3 7 18 / 0.3);
+  --header-border: rgb(0 0 0 / 0.1);
+  --header-text: rgb(156 163 175);
+  --header-text-hover: rgb(209 213 219);
+  --header-text-active: rgb(229 231 235);
+  --header-pill-bg: rgb(31 41 55);
 }
 
 @layer base {

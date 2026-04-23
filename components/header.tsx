@@ -17,14 +17,14 @@ export default function Header() {
     <header className='z-10 relative'>
       <motion.div
         className={cn(
-          'fixed top-0 left-1/2 h-18 w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/3 backdrop-blur-sm sm:top-6 sm:h-13 sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75',
+          'fixed top-0 left-1/2 h-18 w-full rounded-none border shadow-lg shadow-black/3 backdrop-blur-sm sm:top-6 sm:h-13 sm:rounded-full bg-[var(--header-bg)] border-[var(--header-border)]',
           locale === 'es' ? 'sm:w-2xl' : 'sm:w-xl',
         )}
         initial={{ y: -100, x: '-50%', opacity: 0 }}
         animate={{ y: 0, x: '-50%', opacity: 1 }}
       ></motion.div>
       <nav className='flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0'>
-        <ul className='flex w-88 flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-160 sm:flex-nowrap sm:gap-5'>
+        <ul className='flex w-88 flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-[var(--header-text)] sm:w-160 sm:flex-nowrap sm:gap-5'>
           {links.map((link) => (
             <motion.li
               key={link.hash}
@@ -39,9 +39,9 @@ export default function Header() {
                 }}
                 href={link.hash}
                 className={cn(
-                  'flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300',
+                  'flex w-full items-center justify-center px-3 py-3 transition text-[var(--header-text)] hover:text-[var(--header-text-hover)]',
                   activeSection === link.name &&
-                    'text-gray-950 dark:text-gray-200',
+                    'text-[var(--header-text-active)]',
                 )}
               >
                 {t(link.name)}
@@ -53,7 +53,7 @@ export default function Header() {
                       stiffness: 380,
                       damping: 30,
                     }}
-                    className='bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800'
+                    className='bg-[var(--header-pill-bg)] rounded-full absolute inset-0 -z-10'
                   ></motion.span>
                 )}
               </Link>
