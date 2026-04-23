@@ -1,7 +1,7 @@
 {
   "Layout": {
     "meta-title": "Portafolio de Ricardo",
-    "meta-description": "Ricardo es un desarrollador web full stack"
+    "meta-description": "Desarrollador Full Stack con mentalidad de ingeniería, enfocado en sistemas web, APIs y soluciones orientadas a negocio."
   },
   "Header": {
     "Home": "Inicio",
@@ -30,30 +30,36 @@
   },
   "AboutSection": {
     "title": "Sobre mi",
-    "description": "<p>Después de graduarme con un título en <span>Ingeniería Industrial</span>, adquirí experiencia trabajando como gerente en varias empresas. Sin embargo, varios años después, decidí seguir mi pasión por la programación. Me inscribí en cursos de programación y me convertí en un experto en <span>desarrollo web full-stack</span>. <i>Mi parte favorita de la programación</i> es la resolución de problemas, y me <u>encanta</u> la satisfacción de encontrar soluciones a desafíos complejos.</p><p>Mi conjunto de tecnologías principales incluye <span>React, Next.js, Node.js, Typescript y Python</span>. También estoy familiarizado con Ruby on Rails y Angular. Siempre estoy buscando oportunidades para aprender y adaptarme a nuevas tecnologías. Actualmente, estoy buscando activamente un puesto a <span>tiempo completo</span> como desarrollador de software.</p><p><i>Cuando no estoy inmerso en la codificación</i>, disfruto pasar tiempo de calidad con mi familia, participar en actividades de ciclismo de carretera y montaña con el club local de ciclismo y salir a correr. Además, <span>disfruto en expandir constantemente mi conocimiento</span> y realizar el mantenimiento de mis bicicletas.</p>"
+    "description": "<p>Soy <span>desarrollador Full Stack con mentalidad de ingeniería</span> y una trayectoria previa en optimización de procesos, operaciones y estrategia de negocio. Mi base en <span>Ingeniería Industrial</span> me dio una forma de pensar estructurada, analítica y orientada a resolver problemas complejos con criterio.</p><p>En los últimos años he trabajado construyendo <span>aplicaciones web completas, APIs, flujos de autenticación y sistemas conectados a base de datos</span> usando tecnologías modernas como React, TypeScript, Node.js, Supabase y PostgreSQL. Me siento especialmente cómodo en la lógica de backend, la definición de flujos y la traducción de necesidades de negocio en soluciones técnicas utilizables.</p><p>También he trabajado en entornos reales con foco en <span>arquitectura, despliegue, integraciones con terceros, almacenamiento de archivos y desarrollo end-to-end</span>. Antes de dedicarme de lleno al software, lideré operaciones, proveedores, presupuestos y procesos comerciales, algo que hoy me ayuda a entender mejor el contexto del negocio detrás de cada producto.</p><p><i>Fuera del trabajo</i>, disfruto del ciclismo, correr y seguir aprendiendo. Actualmente busco oportunidades como <span>Full Stack Developer</span>, especialmente en equipos remotos donde pueda aportar autonomía, pensamiento lógico y capacidad de ejecución de principio a fin.</p>"
   },
   "ProjectsSection": {
     "title": "Mis Proyectos"
   },
   "ProjectData": {
-    "La Furia AI": "La Furia AI",
-    "description-La Furia AI": "Un chatbot, generador de video, generador de imágenes, y generador de música, que utiliza la API de OpenAI y Replicate. Tiene un plan gratis limitado por una cierta cantidad de mensajes, y un plan pago gestionado con Stripe para la suscripción.",
-    "Short Term Rentals": "Alquiler de Corta Estancia",
-    "description-Short Term Rentals": "Una web para gestionar o reservar y pagar alquileres de corta estancia, al estilo de AirBnB. Tiene mapas, modals, pasarela de pago con Stripe.",
-    "Soluciones iO": "Soluciones iO",
-    "description-Soluciones iO": "Empresa de desarrollo web que ayuda a pequeños negocios construir su presencia en internet utilizando React, Next.JS, WordPress y WooCommerce."
+    "pawlaroid": {
+      "title": "Pawlaroid",
+      "description": "Plataforma web full stack desarrollada de extremo a extremo para generar retratos de mascotas con IA. Incluye autenticación, modelos de datos, almacenamiento de archivos, integraciones con servicios externos y una arquitectura pensada para uso real en producción."
+    },
+    "clipboost": {
+      "title": "Clipboost Video Cloud",
+      "description": "Plataforma web de producción para gestionar y compartir vídeos, junto con landing pages desarrolladas en React. El proyecto se construyó con foco en entregas rápidas, usabilidad y traducción de necesidades de negocio en una solución técnica funcional."
+    },
+    "sangreai": {
+      "title": "Sangre AI",
+      "description": "Aplicación web impulsada por IA para interpretar análisis de sangre. Utiliza la API de Google Gemini para extraer y procesar los datos, almacenarlos en MongoDB y generar un informe que ayude al usuario a entender mejor sus resultados y tomar decisiones."
+    }
   },
   "SkillsSection": {
     "title": "Mis habilidades"
   },
   "ExperienceSection": {
     "title": "Experiencia",
-    "title-0": "Desarrollador Full-Stack",
-    "description-0": "Durante los últimos meses, me he dedicado por completo a ampliar mis habilidades de programación y he centrado mis esfuerzos en dominar React, Next.js y otras tecnologías relacionadas. En este tiempo, he perfeccionado mis habilidades creando numerosos proyectos de demostración pequeños, cada uno de los cuales sirve como testimonio de mi creciente destreza en las complejidades de React. Además, tuve el privilegio de ser contratado para liderar el desarrollo de un sistema integral de facturación utilizando Ruby on Rails. Este proyecto no solo destacó mis capacidades técnicas, sino que también demostró mi capacidad para ofrecer soluciones prácticas. Estas experiencias han consolidado mi compromiso de avanzar en mi experiencia en el desarrollo web y entregar soluciones de software impactantes.",
-    "title-1": "Director Comercial",
-    "description-1": "Fui responsable de garantizar el correcto funcionamiento y la optimización de los procesos, centrándome principalmente en el departamento de operaciones. Mi función también implicó negociar y colaborar con proveedores internacionales para asegurar los mejores precios, garantías y condiciones, mejorando así nuestra competitividad. Además, me hice cargo del desarrollo y mantenimiento del sitio web de la empresa. Para aumentar las ventas y ampliar nuestra base de clientes, implementé estrategias de marketing digital, aprovechando el SEO y Google Ads para llegar a una audiencia más amplia.",
-    "title-2": "Ingeniería Organización Industrial",
-    "description-2": "En diciembre de 1997, obtuve mi título de Licenciatura en Ciencias en Ingeniería Industrial de la Universidad de Florida, ubicada en la ciudad de Gainesville, Florida, Estados Unidos. Este hito educativo no solo me proporcionó una sólida base en los principios de la ingeniería industrial, sino que también marcó el inicio de mi camino hacia convertirme en un profesional competente y bien informado."
+    "title-0": "Desarrollador Full Stack",
+    "description-0": "He trabajado como desarrollador Full Stack construyendo aplicaciones web listas para producción con React, Node.js, TypeScript y Supabase. En Facturama Ltd desarrollé Pawlaroid de extremo a extremo, incluyendo autenticación, modelos de datos, almacenamiento de archivos e integraciones externas. También construí Clipboost Video Cloud y distintas landing pages en React, trabajando directamente con stakeholders para convertir necesidades de negocio en soluciones técnicas funcionales y desplegadas en entornos reales.",
+    "title-1": "Consultor de Soluciones de Negocio y Desarrollador",
+    "description-1": "En Soluciones iO combiné desarrollo web y visión de negocio para crear aplicaciones a medida, optimizar procesos e impulsar estrategias digitales orientadas a resultados. Diseñé soluciones para casos de uso reales, trabajé con clientes para alinear tecnología y objetivos comerciales, y desarrollé estrategias de captación basadas en SEO, marketing digital y email marketing, logrando aumentar la adquisición de clientes en un 30%.",
+    "title-2": "Director Comercial y trayectoria previa en operaciones",
+    "description-2": "Antes de pasar al desarrollo de software, ocupé puestos de dirección y gestión operativa donde optimicé procesos internos, negocié con proveedores internacionales, gestioné presupuestos y participé en licitaciones públicas y privadas. Esa etapa reforzó mi capacidad para analizar sistemas, reducir ineficiencias y tomar decisiones con impacto real en costes, operaciones y crecimiento."
   },
   "ContactSection": {
     "contact-me": "Contacto",

@@ -1,7 +1,7 @@
 {
   "Layout": {
     "meta-title": "Ricardo's Portfolio",
-    "meta-description": "Ricardo is a full stack web developer"
+    "meta-description": "Engineering-minded Full Stack Developer focused on web systems, APIs, and business-driven technical solutions."
   },
   "Header": {
     "Home": "Home",
@@ -30,30 +30,36 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "description": "<p>After graduating with a degree in <span>Industrial Engineering</span>, I gained experience by working as a manager in several companies. However, several years later, I decided to pursue my passion for coding. I enrolled in programming courses and became proficient in <span>full-stack web development</span>. <i>My favorite aspect of programming</i> is problem-solving, and I absolutely <u>love</u> the satisfaction of finding solutions to complex challenges.</p><p>My core stack includes <span>React, Next.js, Node.js, Typescript, and Python</span>. I am also familiar with Ruby on Rails and Angular. I am constantly seeking opportunities to learn and adapt to new technologies. Currently, I am actively searching for a <span>full-time position</span> as a software developer.</p><p><i>When I'm not immersed in coding</i>, I enjoy spending quality time with my family, participating in road and mountain biking activities with the local cycling club, and going jogging. Additionally, I find joy in continuously expanding my knowledge and performing maintenance on my bikes.</p>"
+    "description": "<p>I am an <span>engineering-minded Full Stack Developer</span> with a previous background in process optimisation, operations, and business strategy. My degree in <span>Industrial Engineering</span> shaped the way I approach problems: structurally, analytically, and with a strong focus on practical solutions.</p><p>Over the last few years, I have been building <span>end-to-end web applications, APIs, authentication flows, and database-backed systems</span> using modern technologies such as React, TypeScript, Node.js, Supabase, and PostgreSQL. I am especially comfortable with backend logic, system flows, and translating business needs into usable technical products.</p><p>I have also worked in real delivery environments with a strong focus on <span>architecture, deployment, third-party integrations, file storage, and full product ownership</span>. Before moving fully into software development, I held leadership roles in operations and commercial management, which helps me understand the business context behind every product decision.</p><p><i>Outside work</i>, I enjoy cycling, running, and continuous learning. I am currently looking for opportunities as a <span>Full Stack Developer</span>, especially within remote teams where I can contribute autonomy, logical thinking, and end-to-end execution.</p>"
   },
   "ProjectsSection": {
     "title": "My Projects"
   },
   "ProjectData": {
-    "La Furia AI": "La Furia AI",
-    "description-La Furia AI": "A chatbot, video generator, image generator, and music generator, that uses OpenAI API and Replicate. It has a free tier with limited messages, and a pid one with Stripe as payment processor for the subscription.",
-    "Short Term Rentals": "Short Term Rentals",
-    "description-Short Term Rentals": "A web app for short-term rental properties, like AirBnB. It features user auth with next-auth, adding properties, maps with leaflet, reservation calendar, modals ui, filtering, and more.",
-    "Soluciones iO": "Soluciones iO",
-    "description-Soluciones iO": "A web development company that helps small business to build their websites using React, Next.JS, WordPress, and WooCommerce."
+    "pawlaroid": {
+      "title": "Pawlaroid",
+      "description": "A full-stack web platform built end to end to generate AI pet portraits. It includes authentication, data models, file storage, third-party integrations, and an architecture designed for real production use."
+    },
+    "clipboost": {
+      "title": "Clipboost Video Cloud",
+      "description": "A production web platform for managing and sharing videos, along with React-based landing pages. The project was built with a strong focus on fast delivery, usability, and turning business requirements into a working technical solution."
+    },
+    "sangreai": {
+      "title": "Sangre AI",
+      "description": "An AI-powered web app for interpreting blood test results. It uses the Google Gemini API to extract and process data, stores it in MongoDB, and generates a report that helps users better understand their results and take action."
+    }
   },
   "SkillsSection": {
     "title": "My Skills"
   },
   "ExperienceSection": {
     "title": "My Experience",
-    "title-0": "Full-Stack Developer",
-    "description-0": "Over the past several months, I have been dedicated to expanding my programming skills and have focused my efforts on mastering React, Next.js and other related technologies. During this time, I have diligently honed my abilities by creating numerous small demonstration projects, each serving as a testament to my growing proficiency in React's intricacies. Additionally, I had the privilege of being hired to spearhead the development of a comprehensive invoicing system using Ruby on Rails. This project not only highlighted my technical capabilities, but also demonstrated my ability to deliver practical solutions. These experiences have solidified my commitment to advancing my expertise in web development and delivering impactful software solutions.",
-    "title-1": "Commercial Director",
-    "description-1": "I was responsible for ensuring the proper operation and optimization of processes, primarily focusing on the operations department. My role also involved negotiating and collaborating with international suppliers to secure the best prices, guarantees, and conditions, thereby enhancing our competitiveness. Additionally, I took charge of developing and maintaining the company's website. To boost sales and expand our customer base, I implemented digital marketing strategies, leveraging SEO and Google Ads to reach a broader audience.",
-    "title-2": "B.S. in Industrial Engineering",
-    "description-2": "In December 1997, I earned my Bachelor of Science degree in Industrial Engineering from the University of Florida, located in the city of Gainesville, Florida, USA. This educational milestone not only equipped me with a strong foundation in industrial engineering principles but also marked the beginning of my journey towards becoming a skilled and knowledgeable professional."
+    "title-0": "Full Stack Developer",
+    "description-0": "I have worked as a Full Stack Developer building production-ready web applications with React, Node.js, TypeScript, and Supabase. At Facturama Ltd, I built Pawlaroid end to end, including authentication, data models, file storage, and third-party integrations. I also delivered Clipboost Video Cloud and multiple React-based landing pages, working directly with stakeholders to turn business requirements into deployed technical solutions used in real environments.",
+    "title-1": "Business Solutions Consultant & Developer",
+    "description-1": "At Soluciones iO, I combined web development with business thinking to build custom applications, improve processes, and support digital strategies tied to measurable outcomes. I developed solutions for real business use cases, worked closely with clients to align technology with commercial goals, and designed acquisition strategies using SEO, digital marketing, and email marketing, helping increase customer acquisition by 30%.",
+    "title-2": "Commercial Director and prior operations leadership",
+    "description-2": "Before moving into software development full time, I held leadership roles focused on operations, supplier management, budgeting, and public and private tenders. That stage strengthened my ability to analyse systems, reduce inefficiencies, and make decisions with a direct impact on costs, operations, and growth."
   },
   "ContactSection": {
     "contact-me": "Contact Me",
