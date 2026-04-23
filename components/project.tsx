@@ -26,7 +26,7 @@ export default function Project({ title, tags, imageUrl, link }: ProjectProps) {
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className='group mb-3 sm:mb-8 last:mb-0'
+      className='relative group mb-3 sm:mb-8 last:mb-0'
     >
       <section className='relative bg-gray-100 max-w-2xl rounded-lg borderBlack/5 overflow-hidden sm:pr-8 hover:bg-gray-200 transition sm:group-even:pl-8 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white'>
         <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-1 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-72'>

@@ -20,7 +20,11 @@ export default async function RootLayout(props: Props) {
   const { children } = props;
 
   return (
-    <html suppressHydrationWarning lang={locale} className='scroll-smooth!'>
+    <html
+      suppressHydrationWarning
+      lang={locale}
+      className='relative scroll-smooth!'
+    >
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 min-h-screen flex flex-col`}
       >

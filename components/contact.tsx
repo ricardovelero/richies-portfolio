@@ -49,7 +49,7 @@ export default function Contact() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       id='contact'
-      className='mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'
+      className='relative mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'
     >
       <SectionHeading>{t('contact-me')}</SectionHeading>
       <p className='text-gray-700 -mt-6 dark:text-white/80'>
