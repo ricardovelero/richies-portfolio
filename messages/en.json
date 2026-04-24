@@ -54,12 +54,18 @@
   },
   "ExperienceSection": {
     "title": "My Experience",
-    "title-0": "Full Stack Developer",
-    "description-0": "I have worked as a Full Stack Developer building production-ready web applications with React, Node.js, TypeScript, and Supabase. At Facturama Ltd, I built Pawlaroid end to end, including authentication, data models, file storage, and third-party integrations. I also delivered Clipboost Video Cloud and multiple React-based landing pages, working directly with stakeholders to turn business requirements into deployed technical solutions used in real environments.",
-    "title-1": "Business Solutions Consultant & Developer",
-    "description-1": "At Soluciones iO, I combined web development with business thinking to build custom applications, improve processes, and support digital strategies tied to measurable outcomes. I developed solutions for real business use cases, worked closely with clients to align technology with commercial goals, and designed acquisition strategies using SEO, digital marketing, and email marketing, helping increase customer acquisition by 30%.",
-    "title-2": "Commercial Director and prior operations leadership",
-    "description-2": "Before moving into software development full time, I held leadership roles focused on operations, supplier management, budgeting, and public and private tenders. That stage strengthened my ability to analyse systems, reduce inefficiencies, and make decisions with a direct impact on costs, operations, and growth."
+    "title-0": "Full Stack Developer · Facturama Ltd",
+    "description-0": "Contract role building production-ready web applications with React, Node.js, TypeScript and Supabase. Designed and built Pawlaroid end to end, including authentication, user flows, database models, file storage and third-party integrations. Also delivered Clipboost Video Cloud and React-based landing pages under tight timelines, working directly with stakeholders to translate business requirements into deployed technical solutions.",
+    "title-1": "Full Stack Developer · Soluciones iO",
+    "description-1": "Developed custom web applications for real business use cases using React and Node.js. Built REST APIs, authentication flows and database-backed systems, delivering production-ready applications deployed to live environments. Combined technical execution with business analysis to design solutions aligned with operational and commercial goals.",
+    "title-2": "Software & Systems Development · Independent",
+    "description-2": "Built and operated Linux-based systems with custom automation and monitoring tools. Designed mining infrastructure with 225 Nvidia GPUs, developed Bash scripts and a Telegram bot for real-time metrics and alerts, and managed reliable data flows for long-running production systems.",
+    "title-3": "Commercial Director · Suministros Yupi",
+    "description-3": "Led commercial and operational optimisation in a supplier-driven business environment. Improved internal processes, managed international supplier relationships, negotiated better purchasing conditions and implemented data-driven marketing strategies that supported online sales growth and operational efficiency.",
+    "title-4": "Chief Executive Officer · Profelim, C.A.",
+    "description-4": "Managed budgets, public and private tenders, payroll systems and operational processes for a large service company. Secured contracts worth up to $1M, implemented payroll and accounting systems for hundreds of employees, and strengthened the company’s market presence through brand and process improvements.",
+    "title-5": "B.S. Industrial Engineering · University of Florida",
+    "description-5": "Earned a Bachelor of Science in Industrial Engineering from the University of Florida. This background shaped a structured, analytical approach to software development, process optimisation, systems thinking and practical problem-solving."
   },
   "ContactSection": {
     "contact-me": "Contact Me",

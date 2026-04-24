@@ -54,12 +54,18 @@
   },
   "ExperienceSection": {
     "title": "Experiencia",
-    "title-0": "Desarrollador Full Stack",
-    "description-0": "He trabajado como desarrollador Full Stack construyendo aplicaciones web listas para producción con React, Node.js, TypeScript y Supabase. En Facturama Ltd desarrollé Pawlaroid de extremo a extremo, incluyendo autenticación, modelos de datos, almacenamiento de archivos e integraciones externas. También construí Clipboost Video Cloud y distintas landing pages en React, trabajando directamente con stakeholders para convertir necesidades de negocio en soluciones técnicas funcionales y desplegadas en entornos reales.",
-    "title-1": "Consultor de Soluciones de Negocio y Desarrollador",
-    "description-1": "En Soluciones iO combiné desarrollo web y visión de negocio para crear aplicaciones a medida, optimizar procesos e impulsar estrategias digitales orientadas a resultados. Diseñé soluciones para casos de uso reales, trabajé con clientes para alinear tecnología y objetivos comerciales, y desarrollé estrategias de captación basadas en SEO, marketing digital y email marketing, logrando aumentar la adquisición de clientes en un 30%.",
-    "title-2": "Director Comercial y trayectoria previa en operaciones",
-    "description-2": "Antes de pasar al desarrollo de software, ocupé puestos de dirección y gestión operativa donde optimicé procesos internos, negocié con proveedores internacionales, gestioné presupuestos y participé en licitaciones públicas y privadas. Esa etapa reforzó mi capacidad para analizar sistemas, reducir ineficiencias y tomar decisiones con impacto real en costes, operaciones y crecimiento."
+    "title-0": "Desarrollador Full Stack · Facturama Ltd",
+    "description-0": "Rol por contrato construyendo aplicaciones web listas para producción con React, Node.js, TypeScript y Supabase. Diseñé y desarrollé Pawlaroid de extremo a extremo, incluyendo autenticación, flujos de usuario, modelos de datos, almacenamiento de archivos e integraciones externas. También desarrollé Clipboost Video Cloud y landing pages en React bajo plazos ajustados, trabajando directamente con stakeholders para convertir necesidades de negocio en soluciones técnicas desplegadas.",
+    "title-1": "Desarrollador Full Stack · Soluciones iO",
+    "description-1": "Desarrollé aplicaciones web a medida para casos de uso reales usando React y Node.js. Construí APIs REST, flujos de autenticación y sistemas conectados a bases de datos, entregando aplicaciones listas para producción y desplegadas en entornos reales. Combiné ejecución técnica con análisis de negocio para diseñar soluciones alineadas con objetivos operativos y comerciales.",
+    "title-2": "Desarrollo de software y sistemas · Independiente",
+    "description-2": "Construí y operé sistemas basados en Linux con herramientas propias de automatización y monitorización. Diseñé una infraestructura de minería con 225 GPUs Nvidia, desarrollé scripts en Bash y un bot de Telegram para métricas y alertas en tiempo real, y gestioné flujos de datos fiables para sistemas de larga ejecución.",
+    "title-3": "Director Comercial · Suministros Yupi",
+    "description-3": "Lideré la optimización comercial y operativa en una empresa dependiente de proveedores y procesos internos. Mejoré procesos clave, gestioné relaciones con proveedores internacionales, negocié mejores condiciones de compra e implementé estrategias de marketing basadas en datos que apoyaron el crecimiento de ventas online y la eficiencia operativa.",
+    "title-4": "Director Ejecutivo · Profelim, C.A.",
+    "description-4": "Gestioné presupuestos, licitaciones públicas y privadas, sistemas de nómina y procesos operativos en una empresa de servicios de gran escala. Conseguí contratos de hasta 1M de dólares, implementé sistemas de nómina y contabilidad para cientos de empleados y fortalecí la presencia de la empresa mediante mejoras de marca y procesos.",
+    "title-5": "Ingeniería Industrial · University of Florida",
+    "description-5": "Obtuve el título de Bachelor of Science in Industrial Engineering en la University of Florida. Esta formación consolidó una forma de trabajo estructurada y analítica, orientada al desarrollo de software, la optimización de procesos, el pensamiento sistémico y la resolución práctica de problemas."
   },
   "ContactSection": {
     "contact-me": "Contacto",
